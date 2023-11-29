@@ -40,8 +40,8 @@ function App() {
         {/* <About></About> */}
         <div className="container">
           <Routes>
-            <Route path="/" element={<TextForm heading="Enter the text below to analyze" showAlert={showAlert} mode={mode} />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/" element={<TextForm heading="Try Textutils-Word counter ,Character counter ,Reamove extra spaces" showAlert={showAlert} mode={mode} />} />
+            <Route path="/about" element={<About mode={mode}/>} />
           </Routes>
         </div>
       </Router>
